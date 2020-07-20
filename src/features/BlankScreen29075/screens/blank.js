@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_5: "", Datepicker_7: new Date("07/20/2020") }
+  state = { Input_5: "" }
 
   render = () => (
     <View
@@ -128,39 +128,6 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_5}
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
-      />
-      <Datepicker
-        style={{
-          width: "100%",
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none"
-        }}
-        date={this.state.Datepicker_7}
-        onSelect={nextValue => this.setState({ Datepicker_7: nextValue })}
       />
     </View>
   )
