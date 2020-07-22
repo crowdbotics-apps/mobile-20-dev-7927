@@ -23,7 +23,6 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Toggle_3: true,
     CheckBox_7: true,
     Toggle_2: true,
     Toggle_4: true,
@@ -82,64 +81,6 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
-      <Image
-        resizeMode="cover"
-        style={{
-          width: "100%",
-          height: 200,
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 0,
-          marginBottom: 0,
-          paddingLeft: 0,
-          paddingRight: 0,
-          paddingTop: 0,
-          paddingBottom: 0,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0
-        }}
-      />
-      <Toggle
-        text="switch ON/OFF"
-        activeColor="#409EFF"
-        inactiveColor="#C0CCDA"
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        checked={this.state.Toggle_3}
-        onChange={nextChecked => this.setState({ Toggle_3: nextChecked })}
-      />
       <Slider
         value={50}
         minimumValue={0}
