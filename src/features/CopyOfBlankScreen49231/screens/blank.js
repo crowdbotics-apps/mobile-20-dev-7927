@@ -23,9 +23,9 @@ export class _Blank extends React.Component {
   }
 
   state = {
+    Datepicker_17: new Date("07/22/2020"),
     Input_29: "",
     Input_5: "",
-    Datepicker_17: new Date("07/22/2020"),
     Toggle_23: true,
     Radio_24: true,
     Input_2: "",
@@ -69,6 +69,40 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
+      <Datepicker
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textShadow: "0pt 0pt 0pt #000000",
+          textDecoration: "none",
+          textTransform: "none"
+        }}
+        date={this.state.Datepicker_17}
+        onSelect={nextValue => this.setState({ Datepicker_17: nextValue })}
+      />
       <Input
         placeholder="Sample text input placeholder"
         editable={true}
@@ -142,40 +176,6 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_5}
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
-      />
-      <Datepicker
-        style={{
-          width: "100%",
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        date={this.state.Datepicker_17}
-        onSelect={nextValue => this.setState({ Datepicker_17: nextValue })}
       />
       <Slider
         value={50}
