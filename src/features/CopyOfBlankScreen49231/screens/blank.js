@@ -23,7 +23,7 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Input_2: "",
+    Input_5: "",
     Datepicker_17: new Date("07/22/2020"),
     Toggle_23: true,
     Radio_24: true,
@@ -101,8 +101,8 @@ export class _Blank extends React.Component {
           textDecoration: "none",
           textTransform: "none"
         }}
-        value={this.state.Input_2}
-        onChangeText={nextValue => this.setState({ Input_2: nextValue })}
+        value={this.state.Input_5}
+        onChangeText={nextValue => this.setState({ Input_5: nextValue })}
       />
       <Datepicker
         style={{
