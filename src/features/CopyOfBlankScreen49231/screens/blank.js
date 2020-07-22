@@ -48,9 +48,7 @@ export class _Blank extends React.Component {
     Input_2: "",
     Input_3: "",
     Input_4: "",
-    Input_5: "",
-    Input_6: "",
-    Input_7: ""
+    Input_5: ""
   }
 
   render = () => (
@@ -1809,82 +1807,6 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_5}
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
-      />
-      <Input
-        placeholder="Number Input Placeholder"
-        editable={true}
-        keyboardType="numeric"
-        textStyle={{ fontSize: 20, color: "#000000" }}
-        style={{
-          width: "100%",
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        value={this.state.Input_6}
-        onChangeText={nextValue => this.setState({ Input_6: nextValue })}
-      />
-      <Input
-        placeholder="Number Input Placeholder"
-        editable={true}
-        keyboardType="numeric"
-        textStyle={{ fontSize: 20, color: "#000000" }}
-        style={{
-          width: "100%",
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        value={this.state.Input_7}
-        onChangeText={nextValue => this.setState({ Input_7: nextValue })}
       />
     </View>
   )
