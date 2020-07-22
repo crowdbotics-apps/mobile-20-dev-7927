@@ -22,7 +22,12 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Radio_3: true, Input_5: "" }
+  state = {
+    Datepicker_9: new Date("07/22/2020"),
+    Toggle_3: true,
+    Radio_3: true,
+    Input_5: ""
+  }
 
   render = () => (
     <View
@@ -61,6 +66,126 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
+      <Datepicker
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textShadow: "0pt 0pt 0pt #000000",
+          textDecoration: "none",
+          textTransform: "none"
+        }}
+        date={this.state.Datepicker_9}
+        onSelect={nextValue => this.setState({ Datepicker_9: nextValue })}
+      />
+      <Slider
+        value={50}
+        minimumValue={0}
+        maximumValue={100}
+        step={1}
+        disabled={false}
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+      />
+      <Image
+        resizeMode="cover"
+        style={{
+          width: "100%",
+          height: 200,
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 0,
+          marginBottom: 0,
+          paddingLeft: 0,
+          paddingRight: 0,
+          paddingTop: 0,
+          paddingBottom: 0,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+      />
+      <Toggle
+        text="switch ON/OFF"
+        activeColor="#409EFF"
+        inactiveColor="#C0CCDA"
+        disabled={false}
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textShadow: "0pt 0pt 0pt #000000",
+          textDecoration: "none",
+          textTransform: "none"
+        }}
+        checked={this.state.Toggle_3}
+        onChange={nextChecked => this.setState({ Toggle_3: nextChecked })}
+      />
       <Radio
         text="Radio button"
         disabled={false}
