@@ -23,8 +23,6 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Toggle_4: true,
-    Input_5: "",
     Input_6: "",
     CheckBox_8: true,
     Radio_12: true,
@@ -71,129 +69,6 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
-      <Image
-        resizeMode="cover"
-        style={{
-          width: "100%",
-          height: 199,
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 0,
-          marginBottom: 0,
-          paddingLeft: 0,
-          paddingRight: 0,
-          paddingTop: 0,
-          paddingBottom: 0,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0
-        }}
-      />
-      <Slider
-        value={50}
-        minimumValue={0}
-        maximumValue={100}
-        step={1}
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0
-        }}
-      />
-      <Toggle
-        text="switch ON/OFF"
-        activeColor="#409EFF"
-        inactiveColor="#C0CCDA"
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        checked={this.state.Toggle_4}
-        onChange={nextChecked => this.setState({ Toggle_4: nextChecked })}
-      />
-      <Input
-        placeholder="Sample text input placeholder"
-        editable={true}
-        textStyle={{ fontSize: 20, color: "#000000" }}
-        style={{
-          width: "100%",
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        value={this.state.Input_5}
-        onChangeText={nextValue => this.setState({ Input_5: nextValue })}
-      />
       <Input
         placeholder="Number Input Placeholder"
         editable={true}
@@ -382,7 +257,7 @@ export class _Blank extends React.Component {
       <View
         style={{
           width: "100%",
-          height: "99.99999999999997%",
+          height: "99.99999999999996%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
