@@ -23,7 +23,6 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    CheckBox_7: true,
     Toggle_2: true,
     Toggle_4: true,
     Radio_5: true,
@@ -81,97 +80,6 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
-      <Slider
-        value={50}
-        minimumValue={0}
-        maximumValue={100}
-        step={1}
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0
-        }}
-      />
-      <CheckBox
-        text="Checkbox"
-        disabled={false}
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-        checked={this.state.CheckBox_7}
-        onChange={nextChecked => this.setState({ CheckBox_7: nextChecked })}
-      />
-      <Text
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
-          textDecoration: "none",
-          textTransform: "none"
-        }}
-      >
-        Sample text content
-      </Text>
       <Toggle
         text="switch ON/OFF"
         activeColor="#409EFF"
@@ -208,7 +116,7 @@ export class _Blank extends React.Component {
         resizeMode="cover"
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -296,7 +204,7 @@ export class _Blank extends React.Component {
         resizeMode="cover"
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -562,7 +470,7 @@ export class _Blank extends React.Component {
       <View
         style={{
           width: "100%",
-          height: "100%",
+          height: "99.99999999999999%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -739,7 +647,7 @@ export class _Blank extends React.Component {
         resizeMode="cover"
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -900,7 +808,7 @@ export class _Blank extends React.Component {
         resizeMode="cover"
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -956,7 +864,7 @@ export class _Blank extends React.Component {
         resizeMode="cover"
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -1046,7 +954,7 @@ export class _Blank extends React.Component {
       <View
         style={{
           width: "100%",
-          height: "100%",
+          height: "99.99999999999999%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -1250,7 +1158,7 @@ export class _Blank extends React.Component {
         }}
         style={{
           width: "100%",
-          height: 200,
+          height: 199,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
